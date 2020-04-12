@@ -1,0 +1,5 @@
+{
+    "name": "LG Hombot Vacuum Cleaner",
+    "domains": ["vacuum"],
+    "homeassistant": "0.108.0"
+}

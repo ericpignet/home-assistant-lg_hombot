@@ -1,11 +1,16 @@
-# LG Hombot Component for Home Assistant
+# LG Hombot/Roboking Component for Home Assistant
 
-The LG Hombot vacuum platform allows you to control the state of your LG Hombot robot vacuum.
+The LG Hombot `vacuum` platform allows you to control the state of your LG Hombot robot vacuum.
 This robot is also called Roboking in some countries.
 
-You first have plug a wifi dongle to your robot and [install Wifi support](https://www.roboter-forum.com/index.php?thread/10009-lg-hombot-3-0-wlan-kamera-steuerung-per-weboberfl%C3%A4che/&postID=107354#post107354) before it can be controlled by this platform.
+You first have to plug a wifi dongle to your robot and [install Wifi support](https://www.roboter-forum.com/index.php?thread/10009-lg-hombot-3-0-wlan-kamera-steuerung-per-weboberfl%C3%A4che/&postID=107354#post107354) before it can be controlled by this platform.
 
 You can display various data like the robot status or the charging level via template sensors.
+
+## Installation
+Recommended: use [HACS](https://hacs.xyz/).
+
+Manual: copy `custom_components/lg_hombot` folder into your `custom_components`.
 
 ## Configuration
 ```

@@ -1,4 +1,5 @@
 # LG Hombot/Roboking Component for Home Assistant
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://hacs.xyz/)
 
 The LG Hombot `vacuum` platform allows you to control the state of your LG Hombot robot vacuum.
 This robot is also called Roboking in some countries.

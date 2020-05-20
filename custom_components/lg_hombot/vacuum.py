@@ -13,7 +13,7 @@ import aiohttp
 import async_timeout
 
 from homeassistant.components.vacuum import (
-    VacuumDevice, PLATFORM_SCHEMA, SUPPORT_BATTERY, SUPPORT_FAN_SPEED,
+    VacuumEntity, PLATFORM_SCHEMA, SUPPORT_BATTERY, SUPPORT_FAN_SPEED,
     SUPPORT_PAUSE, SUPPORT_RETURN_HOME, SUPPORT_SEND_COMMAND, SUPPORT_STATUS,
     SUPPORT_STOP, SUPPORT_TURN_OFF, SUPPORT_TURN_ON)
 from homeassistant.const import (
@@ -73,7 +73,7 @@ def async_setup_platform(hass, config, async_add_devices, discovery_info=None):
     async_add_devices([hombot_vac], update_before_add=True)
 
 
-class HombotVacuum(VacuumDevice):
+class HombotVacuum(VacuumEntity):
     """Representation of a Hombot vacuum cleaner robot."""
 
     def __init__(self, name, host, port):

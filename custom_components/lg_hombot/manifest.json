@@ -1,6 +1,7 @@
 {
     "domain": "lg_hombot",
     "name": "LG Hombot Vacuum Cleaner",
+    "version": "0.0.4",
     "documentation": "https://github.com/ericpignet/home-assistant-lg_hombot",
     "requirements": [],
     "dependencies": [],
